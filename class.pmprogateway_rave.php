@@ -416,6 +416,7 @@ if (!function_exists('Rave_Pmp_Gateway_load')) {
                     $body = array(
 
                         'customer_email'        => $order->Email,
+			'member_phone_number'   => Phone,
                         'amount'                => $amount,
                         'txref'                 => $order->code,
 				        'PBFPubKey'             => $key,
